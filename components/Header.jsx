@@ -1,6 +1,6 @@
 import styles from "../styles/Header.module.css";
 import Image from "next/image";
-import Aurora from "../public/Aurora.png"
+import Aurora from "../public/Aurora.png";
 
 export default function Header() {
     <header>
