@@ -1,6 +1,16 @@
 .section{
-    margin-top: 12rem;
-    background-color: #917b9d;
+    display: flex;
+    margin-top: 11rem;
+    background-color: #b19abe;
     width: 50rem;
-    height: 5rem;
+    height: 15rem;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    text-align: center;
 }
