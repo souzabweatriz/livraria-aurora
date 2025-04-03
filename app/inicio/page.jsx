@@ -1,13 +1,15 @@
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
-import CardBook from "../../components/CardBook"
+import CardBook from "../../components/CardBook";
+import Section from "../../components/Section";
 
 import styles from "./home.module.css"
 import { highlightList } from "../../data/highlightList";
 
 export default function Home(){
     return(
-        <div className={styles.teste}>
+        <div className={styles.pageHome}>
+            <Section title="Descubra milhares de Universos" description="Promoção de livros com até 20% de desconto"/>
             <Header />
             <main>
                 <div className={styles.highlightWeek}>

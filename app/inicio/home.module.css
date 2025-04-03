@@ -1,9 +1,16 @@
+.pageHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
 .highlightWeek {
     padding: 2rem;
 }
 
 .title {
     padding: 1rem;
+    font-size: 1.5rem;
 }
 
 .highlights {
