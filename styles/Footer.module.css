@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #523961;
+    color:#c3bbc9;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15rem;
+    list-style: none;
+}
+
+.sectionText {
+    padding: 1rem;
+    min-width: 10rem;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.title {
+    padding-bottom: 0.5rem;
+    min-width: 10rem;
+}
+
+.sectionLinks {
+    min-width: 5rem;
+}
+
+.sectionCategory {
+    padding: 0  1rem;
+}
+
+.copy {
+    text-align: center;
+}
