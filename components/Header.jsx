@@ -2,7 +2,7 @@ import styles from "../styles/Header.module.css";
 import Image from "next/image";
 import Aurora from "../public/Aurora.png";
 import IconList from "./IconList";
-import {iconList} from "../data/iconList"
+import { iconList } from "../data/iconList"
 
 export default function Header() {
     return(
@@ -10,7 +10,6 @@ export default function Header() {
         <div className={styles.header}>
             <div className={styles.container}>
                 <Image className={styles.logo} src={Aurora} alt="Logo da livraria" />
-                <h2 className={styles.title}>Livraria Aurora</h2>
             </div>
             <ul className={styles.links}>
                 <li>
@@ -29,6 +28,7 @@ export default function Header() {
                     <a className={styles.list} href="/">Ofertas</a>
                 </li>
             </ul>
+            <div className={styles.bloco}>
             <div className={styles.pesquisa}>
             <input className={styles.input} type="text" placeholder="🔎 Buscar" />
             </div>
@@ -37,6 +37,7 @@ export default function Header() {
                     <IconList key={index} image={icon.image}/>
                 ))}
             </ul>
+            </div>
         </div>
     </header>
     )

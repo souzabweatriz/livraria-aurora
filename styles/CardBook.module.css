@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    width: 18rem;
+    height: 40rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #baafc4;
+    border-radius: 1rem;
+}
+
+.containerImg {
+    width: 100%;
+    height: 65%;
+}
+
+.containerDesc {
+    height: 35%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 1rem;
+}
+
+.containerImg img {
+    border-radius: 5%;
+    width: 18rem;
+    background-size: cover;
+}
+
+.bookName {
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
+
+.author {
+    font-size: 1.1rem;
+}
+
+.genderBook {
+    font-size: 1rem;
+    background-color: #3b234a;
+    color: #baafc4;
+    padding: 0.3rem;
+    border-radius: 1rem;
+}
+
+.price {
+    font-size: 1rem;
+}
