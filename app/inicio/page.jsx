@@ -5,6 +5,7 @@ import Section from "../../components/Section";
 
 import styles from "./home.module.css"
 import { highlightList } from "../../data/highlightList";
+import { launchList } from "../../data/launchList";
 
 export default function Home(){
     return(
@@ -12,10 +13,18 @@ export default function Home(){
             <Section title="Descubra milhares de Universos" description="Promoção de livros com até 20% de desconto"/>
             <Header />
             <main>
-                <div className={styles.highlightWeek}>
+                <div className={styles.containerBooks}>
                     <h3 className={styles.title}>Destaques da semana</h3>
-                <ul className={styles.highlights}>
+                <ul className={styles.listBooks}>
                     {highlightList.map((card, index) => (
+                        <CardBook key={index} url={card.url} name={card.name} author={card.author} gender={card.gender} price={card.price} />
+                    ))}
+                </ul>
+                </div>
+                <div className={styles.containerBooks}>
+                    <h3 className={styles.title}>Lançamentos</h3>
+                <ul className={styles.listBooks}>
+                    {launchList.map((card, index) => (
                         <CardBook key={index} url={card.url} name={card.name} author={card.author} gender={card.gender} price={card.price} />
                     ))}
                 </ul>
