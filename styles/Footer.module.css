@@ -1,18 +1,19 @@
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: #523961;
-    color:#c3bbc9;
+    background-color: #3b234a;
+    color:#baafc4;
     margin: 2rem;
     padding: 2rem;
     border-radius: 1rem;
+    width: auto;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 15rem;
+    gap: 10rem;
     list-style: none;
 }
 
@@ -25,6 +26,7 @@
 .image {
     width: 100%;
     height: auto;
+    border-radius: 3rem;
 }
 
 .title {
