@@ -1,0 +1,14 @@
+.highlightWeek {
+    padding: 2rem;
+}
+
+.title {
+    padding: 1rem;
+}
+
+.highlights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
