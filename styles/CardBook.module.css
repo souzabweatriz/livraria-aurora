@@ -29,7 +29,7 @@
 .containerImg img {
     border-radius: 5%;
     width: 18rem;
-    background-size: cover;
+    object-fit: cover
 }
 
 .bookName {
