@@ -2,6 +2,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import CardBook from "../../components/CardBook";
 import Section from "../../components/Section";
+import Category from "../../components/Category"
 import styles from "./home.module.css"
 import { highlightList } from "../../data/highlightList";
 import { launchList } from "../../data/launchList";
@@ -28,6 +29,7 @@ export default function Home(){
                     ))}
                 </ul>
                 </div>
+                    <Category />
             </main>
             <Footer />
         </div>
