@@ -6,7 +6,7 @@ export default function Section({title, description}){
         <div className={styles.section}>
             <h2 className={styles.title}>{title}</h2>
             <p className={styles.description}>{description}</p>
-            <Button />
+            <Button props="Veja Aqui"/>
         </div>
     )
 };

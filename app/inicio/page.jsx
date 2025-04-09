@@ -6,6 +6,7 @@ import Category from "../../components/Category"
 import styles from "./home.module.css"
 import { highlightList } from "../../data/highlightList";
 import { launchList } from "../../data/launchList";
+import Assine from "../../components/Assine"
 
 export default function Home(){
     return(
@@ -31,6 +32,7 @@ export default function Home(){
                 </div>
                     <Category />
             </main>
+                    <Assine />
             <Footer />
         </div>
     )

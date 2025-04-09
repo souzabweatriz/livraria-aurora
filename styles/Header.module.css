@@ -7,10 +7,10 @@
     color: #523961;
     align-items: center;
     position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   z-index: 999px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999px;
 }
 
 .container{
