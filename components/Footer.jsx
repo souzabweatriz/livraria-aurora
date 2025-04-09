@@ -1,7 +1,6 @@
 import Aurora from "../public/Aurora.png";
 import SocialCard from "../components/SocialList";
 import Image from "next/image";
-
 import styles from "../styles/Footer.module.css";
 import { socialList } from "../data/socialList";
 
